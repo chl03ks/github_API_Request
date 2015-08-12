@@ -1,0 +1,17 @@
+{
+  "name": "dgithub",
+  "version": "0.0.0",
+  "authors": [
+    "Dan <udevelopd@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "githubApp/static/",
+    "test",
+    "tests",
+    "/static/bower_components"
+  ]
+}
