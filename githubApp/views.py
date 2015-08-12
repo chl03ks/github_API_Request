@@ -1,4 +1,4 @@
-from django.shortcuts import HttpResponse
+from django.shortcuts import HttpResponse, render
 
 import requests
 import json
@@ -30,4 +30,4 @@ def profile(request):
         userData['following'] = data['following']
 
     parsedData.append(userData)
-    return HttpResponse(parsedData)
+    return render(request, 'githubApp/profile.html', {'data': parsedData})
